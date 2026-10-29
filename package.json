@@ -1,0 +1,37 @@
+{
+  "name": "@protokol11/pi-deep-research",
+  "version": "0.1.0",
+  "description": "Multi-agent web research swarm for pi: planner, researchers, skeptic, merger, gate — one cited report. Bundles the deep-research skill and the agent-directory extension.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/protokol11/pi-deep-research.git"
+  },
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "agent-governance",
+    "deep-research",
+    "research-swarm",
+    "web-research"
+  ],
+  "pi": {
+    "extensions": [
+      "./agent-directory/index.ts"
+    ]
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --test extensions/agent-directory/tests/*.test.ts"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "tsx": "^4.19.0",
+    "typescript": "^7.0.2"
+  }
+}
