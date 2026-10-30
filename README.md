@@ -1,4 +1,5 @@
 # @protokol11/pi-deep-research
+npm package: [`@protokol11/pi-deep-research`](https://www.npmjs.com/package/@protokol11/pi-deep-research). Source of truth: [agent-governance](https://github.com/protokol11/agent-governance) monorepo.
 
 Multi-agent web research swarm for pi: a planner fans out researchers over a question, a skeptic attacks every finding against its source, and a merger returns one cited report. This package bundles the runtime wiring: the `deep-research` skill plus the `agent-directory` extension that resolves the swarm's agents from declarative markdown.
 
